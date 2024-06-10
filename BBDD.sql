@@ -37,7 +37,7 @@ hor_p varchar(15),
 constraint pk_cp primary key(clave_p)
 )
 
-insert into profesor values(1,'Smerlin Fernandez','Calle 25 #26',8295560945,'7:00')
+insert into profesor values(1,'Smerlin Fernandez','Calle',829777777,'7:00')
 
 select * from profesor
 
@@ -92,11 +92,11 @@ insert into mat_pro values(1,1)
 
 /*Insert*/
 --Tabla carrera
-insert into carrera values (3,'Diseño',3)
+insert into carrera values (3,'DiseÃ±o',3)
 
 --Tabla materia
 insert into materia values(3,'Dibujo',15)
-insert into materia values(4,'Programación',20)
+insert into materia values(4,'ProgramaciÃ³n',20)
 
 --Tabla alumno
 insert into alumno values(2,'Sergio',19,7,'Hombre',2)
